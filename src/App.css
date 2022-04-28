@@ -1,0 +1,31 @@
+
+.App {
+  min-height: 100vh;
+  background-color: #1f2431;
+}
+
+.bg-1{
+  background-color: #2a3142 !important;
+}
+.bg-2{
+  background-color: #7a6fbe;
+}
+.bg-primary{
+  background-color: #7a6fbe !important;
+}
+.text-1{
+  color: #dee2e6;
+}
+
+.text-2{
+  color: #7a6fbe!important;
+}
+.input-item{
+  background-color: #30384b;
+}
+.icon-img{
+  mask-image: url("/public/images/lock_black_24dp.svg");
+  width: 20px;
+  height: 20px;
+  background-color:#dee2e6 ;
+}

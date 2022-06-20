@@ -1,53 +1,57 @@
-
-.App {
+#sidebar-left{
+  height: 100vh;
+  width: 240px;
+  color: white;
+  background-color: #363f55;
+}
+.content-sidebar{
 
   height: 100vh;
-  background-color: #1f2431;
-}
-
-.bg-1{
-  background-color: #2a3142 !important;
-}
-.bg-2{
-  background-color: #7a6fbe;
-}
-.bg-primary{
-  background-color: #7a6fbe !important;
-}
-.text-1{
-  color: #dee2e6;
-}
-
-.text-2{
-  color: #7a6fbe!important;
-}
-.input-item{
-  background-color: #30384b;
-}
-.icon-img{
-  mask-image: url("/public/images/lock_black_24dp.svg");
-  width: 20px;
-  height: 20px;
-  background-color:#dee2e6 ;
-}
-.dashboard-page{
   overflow-y: auto;
 }
-#footer{
-  background-color:#323a4e ;
+.content-sidebar-icon{
+  height: 100vh;
 }
-#page-master{
-  background-color: #1f2431;
+.menu{
+  padding: 2px 2px;
 }
-#page-top-bar{
-  position: fixed;
-  top: 85px;
+.title-menu{
+  font-size: 12px;
 }
-
-#header-master{
-  z-index: 100;
+#iconsidebar-left{
+  /* height: 100vh; */
+  color: white;
+  width: 70px;
+  background-color: #363f55;
 }
-
+.header-sidebar{
+  min-width: 240px;
+}
+.dropdown:hover .item-icon {
+  color: aliceblue !important;
+}
+.dropdown:hover .dropdown-menu1{
+  display: block;
+}
+.dropdown-menu{
+  background-color: #363f55;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left:100%;
+}
+.item-menu:hover .item-link{
+  color: aliceblue !important;
+}
+.item-submenu:hover .item-linksub{
+  color: aliceblue !important;
+}
+.active{
+  background-color: #1f2431 !important  ;
+}
+.item-menu:hover .active{
+  background-color: #1f2431 !important;
+}
 @media (max-width:576px ) {
   #sidebar-left{
     width: 70px;
@@ -104,10 +108,6 @@
   }
   .header-sidebar-icon {
     min-width: 70px;
-  }
-  #conten-maxter{
-    padding-top: 85px;
-    padding-left: 254px
   }
 }
 

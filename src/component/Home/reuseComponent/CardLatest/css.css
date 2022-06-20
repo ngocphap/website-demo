@@ -1,0 +1,35 @@
+.item-transaction {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+
+}
+
+.icon-status {
+  width: 10px;
+  height: 10px;
+}
+
+.icon-order {
+
+  border-radius: 16px 16px 10px 10px;
+  font-size: 10px;
+  /* height: 10px; */
+}
+
+.center-auto {
+  align-items: center;
+}
+
+.item-order {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 12px;
+}
+
+.btn-edit {
+  font-size: 12px;
+}
+
+.card-item {
+  overflow-x: auto;
+}

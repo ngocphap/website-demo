@@ -1,0 +1,42 @@
+.pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item>.pro-icon-wrapper .pro-icon {
+  background-color: #363f55;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
+  background-color: #363f55;
+}
+
+.pro-sidebar>.pro-sidebar-inner>.pro-sidebar-layout {
+  overflow-y: auto;
+}
+
+#sidebar-menu {
+  height: 100vh;
+}
+
+.pro-sidebar.collapsed .pro-menu>ul>.pro-menu-item.pro-sub-menu>.pro-inner-list-item>.popper-inner {
+  position: absolute;
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: #363f55;
+  padding-left: 20px;
+  border-radius: 4px;
+  top: -10px;
+  left: 0px;
+}
+.icon-font-size{
+  font-size: 27px;
+}
+.bg-primary{
+  background-color: #7a6fbe!important;
+}
+.bg-success {
+  background-color: #58db83!important;
+}
+.bg-danger {
+  background-color: #ec536c!important;
+}
+
+.bg-primary-1{
+  background-color: hsla(0,0%,100%,.1);
+}
